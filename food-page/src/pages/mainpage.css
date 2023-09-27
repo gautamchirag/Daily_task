@@ -1,0 +1,34 @@
+.Main {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  height: calc(650px);
+  display: flex;
+  justify-content: center;
+  /* border: 5px dashed red; */
+}
+
+.Main::before {
+  content: '';
+  background: url(../assets/img/secimg.png) no-repeat;
+
+  /* filter: blur(10px); Adjust the blur radius as needed */
+  position: absolute;
+  background-color: rgb(82, 80, 80);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-blend-mode: overlay, darken;
+  /* backdrop-filter: blur(13.184196472167969px); */
+}
+.card-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 32px;
+  column-gap: 12px;
+  max-height: 400px;
+}

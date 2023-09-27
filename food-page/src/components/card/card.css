@@ -1,0 +1,69 @@
+.card {
+  width: 21.25rem;
+  height: 10.4375rem;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  border-radius: 19.447px;
+  border: 0.459px solid #98f9ff;
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(23.184196472167969px);
+  background-color: rgb(69, 68, 68, 0.3);
+}
+.card-img {
+  /* border: 1px solid powderblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-right {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* gap: 8px; */
+  /* gap: */
+}
+.card-right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.card-right span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-right p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.right-side-btn {
+  display: flex;
+  justify-content: end;
+  padding-right: 1rem;
+}
+.right-side-btn button {
+  border-radius: 5px;
+  background: #ff4343;
+  padding: 4px 6px;
+  width: 57px;
+  height: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* align-items: center; */
+}
